@@ -1,0 +1,55 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(32, 3, 54);
+    color: white;
+    height: 12vh;
+}
+
+nav{
+    display: flex;
+    background-color: purple;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav input {
+    width: 243px;
+    height: 50%;
+  }
+
+button {
+margin: 91px 10px 91px 91px;
+width: 81px;
+height: 24px;
+}
+
+header nav p{
+    color: white;
+    font-size: large;
+    margin-left: 45px;
+}
+
+.container{
+    min-height: 79vh;
+    background-color: rgb(129, 129, 211);
+    justify-content: center;
+}
+
+.iPhone,.Electronics,.Winter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
